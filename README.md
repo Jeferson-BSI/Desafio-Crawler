@@ -136,7 +136,7 @@ Gera o hash MD5 do conteúdo do PDF para garantir sua integridade e evita duplic
 Realize um clone deste repositório em sua máquina local:
 
 ```bash
-git clone https://github.com/Jeferson-BSI/clickPosts.git
+git clone https://github.com/Jeferson-BSI/Desafio-Crawler.git
 ```
 
 Abra a pasta `Desafio-Crawler` presente no repositório:
