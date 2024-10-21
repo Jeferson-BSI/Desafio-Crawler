@@ -192,9 +192,32 @@ Hash MD5 do diário: 259e1cb251c377da0a253d580461741d
 
 ```
 
+## Testes automatizados
+
+Foram implementados testes automatizados para garantir a qualidade e a confiabilidade do sistema. Esses testes ajudam a verificar a funcionalidade do código e a detectar problemas antes da implantação.
+
+### Estrutura dos Testes
+
+Os testes foram organizados em um diretório separado chamado `tests/`, que contém arquivos de teste para as diferentes funcionalidades do projeto. Os testes são escritos utilizando o framework **pytest**
+
+### Execução dos Testes
+
+**Instalando o pytest**:
+
+```bash
+pip install pytest pytest-playwright
+```
+
+Para executar os testes, use o seguinte comando:
+
+```bash
+pytest tests/
+```
+
 ---
 
 ## Fontes de Pesquisa Acessadas
 
 - **Playwright**: [https://playwright.dev/python/docs/intro](https://playwright.dev/python/docs/intro)
 - **Requests**: [https://docs.python-requests.org](https://docs.python-requests.org)
+- **Pytest**: [https://docs.pytest.org/en/stable/](https://docs.pytest.org/en/stable/)
